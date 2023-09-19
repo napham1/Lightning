@@ -6,7 +6,7 @@ int endY = 0;
 void setup(){
   size(300,300);
   strokeWeight(5);
-  background(201);
+  background(181);
 }
 void draw(){
   stroke((int)(Math.random() * 256),(int)(Math.random() * 256), (int)(Math.random() * 256));
@@ -18,7 +18,7 @@ void draw(){
     startY = endY;
   }
   noStroke();
-  fill(255);
+  fill(91);
   ellipse(0,0,100,100);
   ellipse(50,0,110,110);
   ellipse(100,0,90,90);
